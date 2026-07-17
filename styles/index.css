@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  red;
+}
+.container{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+.content{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    padding: 1rem;
+}
+.name{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+.description{
+    font-size: 1.25rem;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
